@@ -14,7 +14,7 @@ const IndexPage: NextPage = () => {
       <header className={styles.header}>
         <img src="/logo.svg" className={styles.logo} alt="logo" />
         <Counter />
-        <p>
+        <p className="text-3xl text-green-300">
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <span>
