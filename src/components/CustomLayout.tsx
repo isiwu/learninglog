@@ -9,13 +9,13 @@ const CustomLayout = (page: ReactElement) => {
       {/* SIDE NAVS */}
       <div className="w-[30%] pl-14 py-8">
         <p className="">
-          <NavLink text="topics" href="/[id]/topics" />
+          <NavLink text="topics" href={`/users/${user.id}/topics`} />
         </p>
         <p className="my-2">
-          <NavLink text="change password" href={`/${user.id}/change-password`} />
+          <NavLink text="change password" href={`/users/${user.id}/change-password`} />
         </p>
         <p>
-          <NavLink text="chats" href={`/${user.id}/chats`} />
+          <NavLink text="chats" href={`/users/${user.id}/chats`} />
         </p>
       </div>
 
