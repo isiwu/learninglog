@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.tsx"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "green-hover": "rgba(22, 164, 74, .09)"
+      }
+    },
   },
   plugins: [],
 }

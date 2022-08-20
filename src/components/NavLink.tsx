@@ -8,7 +8,7 @@ const NavLink = ({text, href,}: {text:string, href: string,}) => {
     router.push(href);
   }
   return (
-    <a href={href} onClick={handleClick}>
+    <a href={href} onClick={handleClick} className="capitalize hover:bg-green-hover py-2 px-4">
       {text}
     </a>
   )
